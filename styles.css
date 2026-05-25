@@ -1,4 +1,4 @@
-/* --- RESET & BASE STYLES (Estilo Apple Clean) --- */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* --- HERO SECTION --- */
 .hero {
   height: 100vh;
   display: flex;
@@ -51,19 +50,17 @@ body {
   animation: pulse 2s infinite;
 }
 
-/* --- GALLERY SECTION --- */
 .gallery-container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 100px 20px;
 }
 
-/* Cada linha da galeria (Alternando lados) */
 .gallery-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 250px; /* Espaço generoso estilo premium */
+  margin-bottom: 250px;
   position: relative;
   width: 100%;
 }
@@ -72,12 +69,11 @@ body {
   flex-direction: row-reverse;
 }
 
-/* Container da Foto e dos Corações */
 .photo-wrapper {
   position: relative;
   width: 55%;
-  border-radius: 22px; /* Bordas suaves padrão Apple */
-  overflow: visible; /* Permite que corações saiam de trás */
+  border-radius: 22px; 
+  overflow: visible; 
 }
 
 .photo-container {
@@ -104,7 +100,6 @@ body {
   transform: scale(1.04);
 }
 
-/* Bloco de Texto Lateral */
 .text-block {
   width: 35%;
   opacity: 0;
@@ -136,7 +131,6 @@ body {
   font-weight: 300;
 }
 
-/* --- SISTEMA DE CORAÇÕES RETROATIVOS --- */
 .heart-canvas {
   position: absolute;
   top: 0;
@@ -149,13 +143,12 @@ body {
 
 .floating-heart {
   position: absolute;
-  color: rgba(230, 92, 92, 0.15); /* Vermelho/rosa bem suave e elegante */
+  color: rgba(230, 92, 92, 0.15);
   font-size: 24px;
   pointer-events: none;
   animation: floatUp 4s forwards ease-in-out;
 }
 
-/* --- FOOTER FINAL --- */
 .footer {
   height: 80vh;
   display: flex;
@@ -173,7 +166,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* --- ANIMAÇÕES KEYFRAMES --- */
 @keyframes pulse {
   0%,
   100% {
@@ -200,7 +192,6 @@ body {
   }
 }
 
-/* RESPONSIVIDADE */
 @media (max-width: 768px) {
   .gallery-row,
   .gallery-row:nth-child(even) {
