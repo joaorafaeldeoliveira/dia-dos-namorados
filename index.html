@@ -1,209 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nossa História | Feliz Dia dos Namorados</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossa História | Edição Especial Premium</title>
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <div class="bg-ambient-container">
+        <div class="aurora-blur aurora-1"></div>
+        <div class="aurora-blur aurora-2"></div>
+        <div class="aurora-blur aurora-3"></div>
+        <canvas id="particles-canvas"></canvas>
+    </div>
+
     <section class="hero">
-      <h1 id="hero-title">Para quem torna os dias mais bonitos.</h1>
-      <p id="hero-subtitle">
-        Role para navegar pelas nossas melhores memórias.
-      </p>
-      <div class="scroll-indicator">role para baixo</div>
+        <h1 id="hero-title">Um pedaço da nossa Historia</h1>
+        <p id="hero-subtitle">Nossos melhores momentos eternizados em detalhes.</p>
     </section>
 
     <main class="gallery-container">
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto1.jpg" alt="Momento nosso" />
-          </div>
-        </div>
-        <div class="text-block">
-          <span>01. O começo de tudo</span>
-          <h2>Onde nossa jornada começou.</h2>
-          <p>
-            Aquele dia simples que acabou se tornando o início do capítulo mais
-            lindo da minha vida.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto2.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-1.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo I</span>
+                <h2>O começo de tudo</h2>
+                <p>Bastou pouco tempo convivendo com você para eu notar que teria uma companheira para a vida</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>02. Sorrisos</span>
-          <h2>Seu riso é meu som favorito.</h2>
-          <p>
-            Não importa o que aconteça, quando vejo você sorrir assim, tudo em
-            volta ganha paz.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto3.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-9.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo II</span>
+                <h2>Seu sorriso é minha felicidade</h2>
+                <p>Seu sorriso e sua alegria são oque me motiva para continuar tentando cada vez mais a cada dia. (Você é muito linda que foto bonita te amo muito)</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>03. Viagens e Destinos</span>
-          <h2>Colecionando lugares com você.</h2>
-          <p>
-            Qualquer lugar do mundo se torna o meu favorito se eu tiver você ao
-            meu lado para dividir o horizonte.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto4.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-3.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo III</span>
+                <h2>Com você não existe dia ruim</h2>
+                <p>Mesmos em dias trágicos e cheios de problemas, compartilhar isso com você torna tudo mais leve e mais suportavel.(que dia quente esse meu deus)</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>04. Dias Calmos</span>
-          <h2>O aconchego do abraço.</h2>
-          <p>
-            Nos dias mais corridos, é no teu abraço que eu encontro o silêncio e
-            o descanso que eu preciso.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto5.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-2.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo IV</span>
+                <h2>A doçura dos dias simples</h2>
+                <p>Gosto dos dias simples em que ficamos juntinhos não fazendo absolutamente nada apenas um do lado do outro. Amo dividir momentos contigo</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>05. Detalhes</span>
-          <h2>A beleza do cotidiano.</h2>
-          <p>
-            Amar você está nos pequenos gestos, no café da manhã compartilhado e
-            no olhar cúmplice no fim do dia.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto6.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-5.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo V</span>
+                <h2>Momentos Especiais</h2>
+                <p>Amo passar as datas comemorativas com uma companhia não especial quanto você. Esses dias que antes não eram tão especiais passar com você se tornou algo muito precioso para mim </p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>06. Grandes Passos</span>
-          <h2>Apoiando cada sonho.</h2>
-          <p>
-            Celebrar suas conquistas é como celebrar as minhas. Estar ali
-            aplaudindo você é meu maior orgulho.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto7.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-6.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo VI</span>
+                <h2>Leveza na vida</h2>
+                <p>Sair com você para passeios mais simples que fossem sempre me deixam muito feliz, sua companhia deixa tudo melhor (até mesmo coisas na natureza que nao gosto ) Essa é uma das minhas fotos favoritas beijo você é linda</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>07. Noites Claras</span>
-          <h2>Sob as luzes da cidade.</h2>
-          <p>
-            Qualquer noite comum ganha brilho especial quando estamos apenas
-            conversando sem ver o tempo passar.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto8.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-12.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo VII</span>
+                <h2>Nosso primeiro ano de namoro</h2>
+                <p>Relembrando a nossa comemoração do nosso primeiro ano de namoro</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>08. Gargalhadas</span>
-          <h2>Cúmplices em tudo.</h2>
-          <p>
-            A melhor parte de nós é que somos melhores amigos. Das piadas bobas
-            aos planos mais sérios.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto9.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="/assets/image-10.jpeg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo VIII</span>
+                <h2>Minha pessoa favorita.</h2>
+                <p>De tudo no universos que eu poderia conhecer, você foi a melhor que passou pela minha vida </p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>09. Estações</span>
-          <h2>O tempo voa ao seu lado.</h2>
-          <p>
-            Ver as estações mudarem e perceber que nosso amor só amadurece e se
-            fortalece a cada dia.
-          </p>
-        </div>
-      </div>
 
-      <div class="gallery-row">
-        <div class="photo-wrapper">
-          <div class="heart-canvas"></div>
-          <div class="photo-container">
-            <img src="foto10.jpg" alt="Momento nosso" />
-          </div>
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="foto9.jpg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo IX</span>
+                <h2>O brilho dos detalhes.</h2>
+                <p>Sua mania de sorrir com os olhos, o jeito que ajeita o cabelo... Tudo em você me prende e me encanta como no primeiro dia.</p>
+            </div>
         </div>
-        <div class="text-block">
-          <span>10. O Agora</span>
-          <h2>E o melhor ainda está por vir.</h2>
-          <p>
-            Olho para trás com gratidão e para o futuro com a certeza de que
-            quero caminhar sempre com você.
-          </p>
+
+        
+
+        <div class="gallery-row">
+            <div class="photo-wrapper">
+                <div class="local-heart-canvas"></div>
+                <div class="photo-reveal-box">
+                    <img src="foto10.jpg" alt="Nossa foto" class="parallax-img">
+                </div>
+            </div>
+            <div class="text-block">
+                <span>Capítulo X</span>
+                <h2>Eternidade.</h2>
+                <p>O que temos não se mede pelo tempo cronológico, mas pela profundidade de tudo o que escolhemos viver lado a lado.</p>
+            </div>
         </div>
-      </div>
+
     </main>
 
-    <section class="footer">
-      <h2>Feliz Dia dos Namorados.</h2>
-      <p style="color: #86868b; font-weight: 300">
-        Te amo hoje, amanhã e sempre.
-      </p>
+    <section class="footer" id="footer-trigger">
+        <h2 id="footer-title">Feliz Dia dos Namorados.</h2>
+        <p id="footer-subtitle">Minha melhor escolha sempre foi, e sempre será, você.</p>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
