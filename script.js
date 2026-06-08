@@ -99,20 +99,7 @@ gsap.registerPlugin(ScrollTrigger);
                 }
             );
 
-            gsap.fromTo(img, 
-                { yPercent: -15 },
-                { 
-                    yPercent: 15,
-                    ease: "none",
-                    scrollTrigger: {
-                        trigger: row,
-                        start: "top bottom",
-                        end: "bottom top",
-                        scrub: true 
-                    }
-                }
-            );
-
+           
             gsap.fromTo(text,
                 { opacity: 0, y: 60 },
                 {
